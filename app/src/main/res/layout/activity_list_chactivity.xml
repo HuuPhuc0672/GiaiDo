@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ic_mau"
+    android:layout_height="match_parent"
+    tools:context=".ListCHActivity">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:background="#EF5B0C"
+        android:text="@string/tieude"
+        android:textColor="#000000"
+
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_socau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="176dp"
+        android:fontFamily="@font/adamina"
+        android:text="Câu 1"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+    </TextView>
+
+<!--    <TextView
+        android:id="@+id/txt_socau2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="332dp"
+        android:fontFamily="@font/adamina"
+        android:text="1:00"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+    </TextView>-->
+
+    <TextView
+        android:id="@+id/txt_cauhoi"
+        android:layout_width="281dp"
+        android:layout_height="220dp"
+        android:background="@drawable/ic_radiu"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/cau_hoi"
+        android:textColor="#000000"
+        android:textSize="25sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_socau" />
+
+    <TextView
+        android:id="@+id/txt_cautra1"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="@string/dapan"
+        android:textColor="#000000"
+        android:background="@drawable/ic_radiu"
+        android:backgroundTint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cauhoi" />
+
+    <TextView
+        android:id="@+id/txt_cautra2"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="44dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="Con Gà"
+
+        android:backgroundTint="@color/white"
+        android:background="@drawable/ic_radiu"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cauhoi" />
+
+    <TextView
+        android:id="@+id/txt_cautra3"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="Con Gà"
+
+        android:backgroundTint="@color/white"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="@drawable/ic_radiu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cautra1" />
+
+    <TextView
+        android:id="@+id/txt_cautra4"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+
+        android:fontFamily="@font/adamina"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="Con Gà"
+        android:background="@drawable/ic_radiu"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cautra2" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
